@@ -1,1 +1,1 @@
-web: python manage.py collectstatic && gunicorn mysite.wsgi
+python manage.py migrate && python manage.py collectstatic --noinput && gunicorn mysite.wsgi
