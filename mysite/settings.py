@@ -28,8 +28,8 @@ SECRET_KEY = 'django-insecure-ygp6vo5g8s+r(aq_=4ru3rj_i2yjbh(mno&m*&(p6dqhrr)cm^
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['duishobaevislam01.up.railway.app']
-CSRF_TRUSTED_ORIGINS = ['https://duishobaevislam01.up.railway.app']
+ALLOWED_HOSTS = ['duishobaevislam01.up.railway.app','*']
+CSRF_TRUSTED_ORIGINS = ['https://duishobaevislam01.up.railway.app','*']
 
 # Application definition
 
